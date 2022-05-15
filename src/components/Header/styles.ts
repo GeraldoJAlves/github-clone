@@ -8,7 +8,7 @@ export const Container = styled.div`
   padding: 11px 16px;
 `
 
-export const GitHubLogo = styled(FaGithub)`
+export const GithubLogo = styled(FaGithub)`
   fill: var(--logo);
   width: 32px;
   height: 32px;
@@ -24,6 +24,7 @@ export const SearchForm = styled.form`
     border-radius: 6px;
     padding: 7px 12px;
     width: 100%;
+    color: var(--primary);
 
     &:focus {
       width: 318px;

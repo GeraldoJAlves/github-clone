@@ -1,8 +1,12 @@
 import React from "react"
+import { Container, Line, GithubLogo } from "./styles"
 
 const Footer: React.FC = () => {
   return (
-    <h1>Footer</h1>
+    <Container>
+      <Line />
+      <GithubLogo />
+    </Container>
   )
 }
 
