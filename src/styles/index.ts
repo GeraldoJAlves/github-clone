@@ -1,3 +1,5 @@
 import GlobalStyles from "./GlobalStyles"
+import { themes, ThemeName, ThemeType } from "./themes"
 
-export { GlobalStyles }
+export { GlobalStyles, themes }
+export type { ThemeName, ThemeType }
