@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Container, SearchForm, GitHubLogo } from './style'
+import { Container, SearchForm, GitHubLogo } from './styles'
 
 const Header: React.FC = () => {
     return (
