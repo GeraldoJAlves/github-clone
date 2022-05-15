@@ -14,10 +14,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/:username" element={<Profile />} />
-        <Route
-          path="/:username/:reponame"
-          element={<Repo username={"GeraldoJAlves"} reponame={"rede-neural"} />}
-        />
+        <Route path="/:username/:reponame" element={<Repo />} />
       </Routes>
       <Footer />
       <GlobalStyles />

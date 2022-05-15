@@ -70,6 +70,15 @@ export const BotSide = styled.div`
     &.typescript {
       background: var(--typescript);
     }
+    &.php {
+      background: var(--php);
+    }
+    &.css {
+      background: var(--css);
+    }
+    &.java {
+      background: var(--java);
+    }
   }
 `
 
