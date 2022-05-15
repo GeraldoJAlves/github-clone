@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { FaGithub } from 'react-icons/fa'
+import { FaGithub } from "react-icons/fa"
 
 export const Container = styled.div`
   display: flex;
@@ -29,6 +29,6 @@ export const SearchForm = styled.form`
       width: 318px;
     }
 
-    transition: width .2s ease-out, color .2s ease-out;
+    transition: width 0.2s ease-out, color 0.2s ease-out;
   }
 `
