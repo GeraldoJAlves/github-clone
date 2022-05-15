@@ -3,5 +3,7 @@
     "javascript.format.semicolons": "remove",
     "typescript.format.semicolons": "remove",
     "javascript.format.insertSpaceAfterSemicolonInForStatements": false,
-    "typescript.format.insertSpaceAfterSemicolonInForStatements": false
+    "typescript.format.insertSpaceAfterSemicolonInForStatements": false,
+    "prettier.semi": false,
+    "editor.formatOnSave": true
 }
